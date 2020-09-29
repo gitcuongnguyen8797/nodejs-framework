@@ -19,6 +19,7 @@
 ├── package.json
 ├── tsconfig.json
 ├── tslint.json
-└── .gitignore
 ├── README.md
+└── .gitignore
+
 ```
