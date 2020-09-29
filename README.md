@@ -9,11 +9,13 @@
 ## Hướng Dẫn Sử Dụng
 ## Cấu trúc Project
 ```bash
-├── src
+├── src (Thư mục chứa code của chương trình)
 │   ├── controllers
 │   │   ├── **/*.ts
-│   └── models
-│       ├── **/*.ts
+│   ├── models
+│   |   ├── **/*.ts
+│   ├── App.ts
+│   └── server.ts
 ├── public (Nếu có)
 ├── dist (thư mục build ts -> js)
 ├── node_modules
