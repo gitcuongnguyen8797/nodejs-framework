@@ -26,5 +26,7 @@
 ```
 
 ## Hướng Dẫn Cài Đặt
-
+``` 
+git clone https://github.com/gitcuongnguyen8797/nodejs-framework.git
+```
 ## Hướng Dẫn Sử Dụng
