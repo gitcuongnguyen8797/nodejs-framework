@@ -13,7 +13,7 @@
 │   ├── controllers
 │   │   ├── **/*.ts
 │   └── models
-│   │   ├── **/*.ts
+│       ├── **/*.ts
 ├── public (Nếu có)
 ├── dist (thư mục build ts -> js)
 ├── node_modules
