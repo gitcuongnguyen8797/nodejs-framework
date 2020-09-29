@@ -11,7 +11,9 @@
 ```bash
 ├── src
 │   ├── controllers
-│   ├── models
+│   │   ├── **/*.ts
+│   └── models
+│   │   ├── **/*.ts
 ├── public (Nếu có)
 ├── dist (thư mục build ts -> js)
 ├── node_modules
