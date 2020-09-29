@@ -13,7 +13,7 @@
 │   ├── controllers
 │   │   ├── **/*.ts
 │   ├── models
-│   |   ├── **/*.ts
+│   │   ├── **/*.ts
 │   ├── App.ts
 │   └── server.ts
 ├── public (Nếu có)
