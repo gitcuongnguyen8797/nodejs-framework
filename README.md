@@ -4,7 +4,7 @@
 - Giúp cho việc khởi tạo project API Nodejs Server một cách nhanh chống và cấu trúc.
 - Tự động tạo ra các unit test trên Controller
 - Sử dụng command line cho việc khởi tạo Model, Controller
-## Hướng dẫn Cài Đặt
+## Hướng Dẫn Cài Đặt
 
 ## Hướng Dẫn Sử Dụng
 ## Cấu trúc Project
