@@ -28,5 +28,7 @@
 ## Hướng Dẫn Cài Đặt
 ``` 
 git clone https://github.com/gitcuongnguyen8797/nodejs-framework.git
+cd nodejs-framework
+npm install
 ```
 ## Hướng Dẫn Sử Dụng
