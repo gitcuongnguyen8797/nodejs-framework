@@ -1,7 +1,7 @@
 import App from './app'
 import * as bodyParser from 'body-parser'
-import User from './models/Users/User'
-import UserController from './controllers/User/UserController'
+
+import UserController from 'controllers/User/UserController'
 
 const app = new App({
     port: 5000,

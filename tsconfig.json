@@ -5,10 +5,16 @@
     "target": "es6",
     "moduleResolution": "node",
     "sourceMap": true,
-    "outDir": "dist"
+    "outDir": "dist",
+    "baseUrl": ".",
+    "paths": {
+      "controllers/*":["src/controllers/*","dist/controllers/*"]
+    },
   },
-  "lib": ["es2015"],
+  "lib": [
+    "es2015"
+  ],
   "exclude": [
     "node_modules"
-]
+  ],
 }

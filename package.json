@@ -9,7 +9,7 @@
     "build": "tsc",
     "prestart": "npm run build",
     "start": "node .",
-    "dev" :"nodemon"
+    "dev": "nodemon"
   },
   "keywords": [
     "Framework",

@@ -1,5 +1,6 @@
-import BaseController from "../BaseController/BaseController";
-import IController from "../BaseController/Controller.interface";
+
+import BaseController from "controllers/BaseController/BaseController";
+import IController from "controllers/BaseController/Controller.interface";
 import { Request, Response } from 'express'
 class UserController extends BaseController implements IController {
     constructor(){
