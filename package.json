@@ -2,10 +2,10 @@
   "name": "nodejsframework",
   "version": "1.0.0",
   "description": "Nodejs Framework made by Nguyen Hai Cuong for create a project Backend API NodeJS by Command Line",
-  "main": "dist/server.js",
+  "main": "./dist/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prebuild": "tslint -c tslint.json -p tsconfig.json --fix",
+    "prebuild": "tslint -c tslint.json -p tsconfig.json --fix ",
     "build": "tsc",
     "prestart": "npm run build",
     "start": "node .",
@@ -28,8 +28,12 @@
     "@types/mysql": "^2.15.15",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "module-alias": "^2.2.2",
     "mssql": "^6.2.3",
     "mysql": "^2.18.1",
     "nodemon": "^2.0.4"
+  },
+  "_moduleAliases": {
+    "@dist": "dist"
   }
 }
