@@ -30,6 +30,7 @@
 git clone https://github.com/gitcuongnguyen8797/nodejs-framework.git
 cd nodejs-framework
 npm install
+npm start (Build and Run Server)
 ```
 ## Hướng Dẫn Sử Dụng
 ### Tạo Controller
@@ -37,3 +38,9 @@ npm install
 node make controller:<Folder.ControllerName> 
 ```
 *** Folder là thư mục con chứa Controller trong thư mục src/controllers. Nếu không có thư mục mặc định controller được tạo tại src/controllers/<ControllerName>
+### Tạo Model
+ ``` 
+node make controller:<Folder.ModelName> 
+```
+*** Folder là thư mục con chứa Controller trong thư mục src/models. Nếu không có thư mục mặc định controller được tạo tại src/models/<ModelName>
+
